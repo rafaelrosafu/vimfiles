@@ -34,7 +34,10 @@ set directory=/tmp                " directory used to save swap files
 
 set t_Co=256                      " forces terminal to use 256 colors
 set gfn=Monospace\ 13             " forces gVim to use this font
+
+" Changes for macvim
 set guifont=Source\ Code\ Pro:h16 " set the GUI font to Source Code Pro, it needs to be downloaded https://github.com/adobe/Source-Code-Pro
+set fu                            " set fullscreen mode, works on Mac OS Mountain Lion
 
 call pathogen#infect()            " initializes pathogen to manage plugins
 
