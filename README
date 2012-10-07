@@ -2,3 +2,9 @@ Rafael Rosa Fu's vimfiles
 
 These are my personal vimfiles. Since I'm still learning to use vim, I advise
 you not to use it for anything :)
+
+Installation instructions:
+- git clone <this repo url> ~/.vim
+- ln -s ~/.vim/.vimrc ~/.vimrc
+- cd ~/.vim
+- git submodule update
