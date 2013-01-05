@@ -41,4 +41,8 @@ set fu                            " set fullscreen mode, works on Mac OS Mountai
 
 call pathogen#infect()            " initializes pathogen to manage plugins
 
+syntax enable                     " Setup Solarized theme
+set background=dark               " https://github.com/altercation/vim-colors-solarized
+colorscheme solarized
+
 map <F2> :NERDTreeTabsToggle<CR>
