@@ -33,10 +33,11 @@ set backupdir=/tmp                " directory used to save backup files
 set directory=/tmp                " directory used to save swap files
 
 set t_Co=256                      " forces terminal to use 256 colors
-set gfn=Monospace\ 13             " forces gVim to use this font
 
-" Changes for macvim
-set guifont=Source\ Code\ Pro:h16 " set the GUI font to Source Code Pro, it needs to be downloaded https://github.com/adobe/Source-Code-Pro
+silent! set guifont=Source\ Code\ Pro:h16 " tries to use Source Code Pro font
+if &guifont != 'Source\ Code\ Pro:h16'    " if it doesn't work fall back to Monospace
+    set guifont=Monospace\ 13
+endif
 
 let os = substitute(system('uname -s'), "\n", "", "")
 if os == "Darwin"
@@ -50,3 +51,8 @@ set background=dark               " https://github.com/altercation/vim-colors-so
 colorscheme solarized
 
 map <F2> :NERDTreeTabsToggle<CR>
+
+vmap <C-c> "+yi                   " Add Ctrl+C, Ctrl+X, Ctrl+V keys to copy/cut/paste action
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
