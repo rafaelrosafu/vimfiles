@@ -52,7 +52,8 @@ colorscheme solarized
 
 map <F2> :NERDTreeTabsToggle<CR>
 
-vmap <C-c> "+yi                   " Add Ctrl+C, Ctrl+X, Ctrl+V keys to copy/cut/paste action
+" Add Ctrl+C, Ctrl+X, Ctrl+V keys to copy/cut/paste action
+vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <C-r><C-o>+
