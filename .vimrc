@@ -48,6 +48,7 @@ call pathogen#infect()            " initializes pathogen to manage plugins
 
 syntax enable                     " Setup Solarized theme
 set background=dark               " https://github.com/altercation/vim-colors-solarized
+let g:solarized_termcolors=256
 colorscheme solarized
 
 map <F2> :NERDTreeTabsToggle<CR>
