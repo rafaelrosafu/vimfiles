@@ -51,10 +51,16 @@ set background=dark               " https://github.com/altercation/vim-colors-so
 let g:solarized_termcolors=256
 colorscheme solarized
 
-map <F2> :NERDTreeTabsToggle<CR>
+map <F2> :NERDTreeTabsToggle<CR>  " Map F2 to NERDTree (file navigator)
 
 " Add Ctrl+C, Ctrl+X, Ctrl+V keys to copy/cut/paste action
 vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <C-r><C-o>+
+
+" Enable Rainbow Parentheses
+au VimEnter * RainbowParenthesesToggleAll
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
