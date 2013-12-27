@@ -1,27 +1,27 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
+	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs.git
+	url = git://github.com/jistr/vim-nerdtree-tabs.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+	url = git://github.com/kien/ctrlp.vim.git
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
-	url = https://github.com/jnwhiteh/vim-golang
+	url = git://github.com/jnwhiteh/vim-golang
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
-	url = git@github.com:guns/vim-clojure-static.git
+	url = git://github.com/guns/vim-clojure-static.git
 [submodule "bundle/rainbow_parentheses.vim"]
 	path = bundle/rainbow_parentheses.vim
-	url = git@github.com:kien/rainbow_parentheses.vim.git
+	url = git://github.com/kien/rainbow_parentheses.vim.git
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
-	url = git@github.com:elixir-lang/vim-elixir.git
+	url = git://github.com/elixir-lang/vim-elixir.git
