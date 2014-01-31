@@ -27,4 +27,4 @@
 	url = git://github.com/elixir-lang/vim-elixir.git
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
-	url = git://github.com:wting/rust.vim.git
+	url = git://github.com/wting/rust.vim.git
